@@ -19,6 +19,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <?php echo do_shortcode('[stock_ticker]'); ?>
     <div id="page" class="hfeed site">
         <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'maggie-lite' ); ?></a>
         <?php 
